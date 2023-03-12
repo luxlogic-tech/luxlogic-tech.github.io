@@ -1,2 +1,2 @@
-# dazs-consulting
+# LUXLOGIC TECHNOLOGY
 DC
