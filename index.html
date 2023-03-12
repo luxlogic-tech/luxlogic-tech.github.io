@@ -14,13 +14,53 @@
     <link rel="stylesheet" href="vendors/magnify-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Bdaz Consutling</title>
+    <title>LUXLOGIC TECHNOLOGY</title>
 </head>
 
 <body>
-    <!--    header    -->
-    <div id="header"></div>
-    <!--    header    -->
+<!--        header     -->
+<header class="header_area p_absoulte m_p sticky_nav navbar_fixed">
+    <nav class="navbar navbar-expand-lg" id="header">
+        <div class="container-fluid">
+            <div class="logo_info">
+                <a href="#" class="navbar-brand logo_two"><img src="img/logo.png" srcset="img/wlogo@2x.png 2x" alt=""><img src="img/dark_logo.png" srcset="img/dark_logo2x.png 2x" alt=""></a>
+                <div class="h_contact_info">
+                    <a href="#">+91-7077731777</a>
+                    <a href="#">contact@luxlogic.tech</a>
+                </div>
+            </div>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu_toggle">
+                    <span class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span class="hamburger-cross">
+                        <span></span>
+                        <span></span>
+                    </span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" role="button"  aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html" role="button"  aria-haspopup="true" aria-expanded="false">
+                            Skills
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--        header     -->
     
     <!--    wavescroll    -->
     <div id="wavescroll">
@@ -107,7 +147,7 @@
                     <h2 class="s_section_title">Our Services</h2>
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <div class="scroll_service_item">
+                            <div class="scroll_service_item drdt-ignore-dark">
                                 <div class="number">1.</div>
                                 <img class="icon p_absoulte" src="img/home_three/s_icon.png" alt="">
                                 <a href="#">
@@ -118,7 +158,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="scroll_service_item">
+                            <div class="scroll_service_item drdt-ignore-dark">
                                 <div class="number">2.</div>
                                 <img class="icon p_absoulte" src="img/home_three/s_icon_2.png" alt="">
                                 <a href="#">
@@ -129,7 +169,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="scroll_service_item">
+                            <div class="scroll_service_item drdt-ignore-dark">
                                 <div class="number">3.</div>
                                 <img class="icon p_absoulte" src="img/home_three/s_icon_2.png" alt="">
                                 <a href="#">
@@ -140,7 +180,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="scroll_service_item">
+                            <div class="scroll_service_item drdt-ignore-dark">
                                 <div class="number">4.</div>
                                 <img class="icon p_absoulte" src="img/home_three/s_icon_2.png" alt="">
                                 <a href="#">
@@ -341,14 +381,6 @@
     <script src="vendors/particale/app.js"></script>
     <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/custom.js"></script>
-    <script>
-        $(document).ready(function(){
-  
-           $('#header').load("_header.html");
-        //    $('#footer').load("_footer.html");
-  
-        });
-      </script>
 </body>
 
 </html>
