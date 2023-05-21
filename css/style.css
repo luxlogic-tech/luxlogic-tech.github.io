@@ -1341,6 +1341,13 @@ header .portfolio_menu .burger_menu .dot_icon .dot {
   position: relative;
   z-index: 1;
 }
+.solution{
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
+  position: relative;
+  z-index: 1;
+}
 .wave_two_section_two #particles-js {
   top: 0;
   width: auto;
