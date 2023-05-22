@@ -3409,6 +3409,7 @@ header .portfolio_menu .burger_menu .dot_icon .dot {
 
 .gallery_inner_three {
   margin: -8px;
+  margin-bottom: 10px;
 }
 .gallery_inner_three .gallery_item {
   padding: 8px;
