@@ -1128,7 +1128,7 @@ header .portfolio_menu .burger_menu .dot_icon .dot {
 }
 
 .social_link {
-  margin-top: 10%;
+  /*margin-top: 10%;*/
   margin-bottom: 0px;
 }
 .social_link li {
@@ -1342,9 +1342,9 @@ header .portfolio_menu .burger_menu .dot_icon .dot {
   z-index: 1;
 }
 .solution{
-  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
-  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
-  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #17a2b8 100%);
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #554681 100%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(12 57 64 / 66%) 0%, #554681 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgba(23, 162, 184, 0.66) 0%, #554681 100%);
   position: relative;
   z-index: 1;
 }
@@ -2732,6 +2732,24 @@ header .portfolio_menu .burger_menu .dot_icon .dot {
   background: #fff;
   color: #101010;
   font-size: 13px;
+}
+
+.progress {
+  height: 1.5rem;
+  margin-bottom: 4%;
+}
+
+.progress-list li p {
+  margin-bottom: 0;
+  color: aliceblue;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.progress-list {
+  list-style-type: none;
+  padding: 0;
 }
 
 /*============ testimonial area css ============*/
